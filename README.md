@@ -67,6 +67,8 @@ https://github.com/user-attachments/assets/15945e13-f519-44ac-9c76-70eb22abff88
 For the first iteration, I paired a simple passive speaker with a breadboard LM386 amplifier circuit. The combination worked — the amplifier gave the Pi's weak headphone output enough power to drive the speaker at a volume that could actually be heard across a room.
 
 
+<img width="553" height="710" alt="Screenshot 2026-05-05 at 23 40 58" src="https://github.com/user-attachments/assets/3be9b077-2eca-40a8-a5a8-5bbcd4be4031" />
+Final product without enclosure. I changed to a better speaker.
 
 
 
