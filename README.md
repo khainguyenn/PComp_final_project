@@ -56,7 +56,19 @@ I used the GrovePi+ as an intermediary board, plugging the air quality and gas s
 * LM386 amplifier circuit
 
 <img width="460" height="366" alt="Screenshot 2026-05-05 at 23 33 10" src="https://github.com/user-attachments/assets/528eb5d5-d7b3-4440-8b77-d0b3d1fe420f" />
+<img width="562" height="493" alt="Screenshot 2026-05-05 at 23 35 37" src="https://github.com/user-attachments/assets/8274f594-93d3-484d-8d14-700b2ffb2c9c" />
+
 The Pi's 3.5mm jack outputs too weak a signal to drive a passive speaker, so I built an LM386 amplifier circuit on a breadboard between them. The amp is powered from the Pi's 5V GPIO pin and boosts the audio signal enough to make the speaker audible.
+
+
+
+https://github.com/user-attachments/assets/15945e13-f519-44ac-9c76-70eb22abff88
+
+For the first iteration, I paired a simple passive speaker with a breadboard LM386 amplifier circuit. The combination worked — the amplifier gave the Pi's weak headphone output enough power to drive the speaker at a volume that could actually be heard across a room.
+
+
+
+
 
 
 ### Amplifier Components
