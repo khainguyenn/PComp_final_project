@@ -2,7 +2,9 @@
 
 A low-cost home safety monitoring system built with a Raspberry Pi that detects unsafe air conditions such as smoke, gas, and poor air quality. The system continuously monitors sensor readings and provides real-time spoken alerts through a speaker system.
 
----
+
+
+[Video of success test run](https://youtube.com/shorts/I3OOGryHgvY)
 
 ## Creator statement
 
@@ -10,7 +12,7 @@ The Smart Air Safety Monitor was created to explore how inexpensive hardware can
 
 What interested me most was not just whether the device could work, but how useful and reliable a low-cost system could realistically be. The project showed that it is possible to build a meaningful air monitoring device without expensive professional equipment. Using a Raspberry Pi, Grove sensors, and open-source Python libraries, the system could continuously monitor air conditions and automatically respond when readings became unsafe
 
----
+
 ## Overview
 
 The Smart Air Safety Monitor is designed as an affordable environmental monitoring device for home use. Using a Raspberry Pi 3 with Grove sensors, the system detects changes in air quality and gas concentration and responds with automatic voice warnings and alarms.
@@ -22,7 +24,7 @@ The project combines:
 * Sensor communication
 * Text-to-speech audio alerts
 
----
+
 
 ## Features
 
@@ -31,7 +33,7 @@ The project combines:
 * Automatic warning mode when unsafe gas levels are detecteted
 * Continuous live monitoring
 
----
+
 
 ## Hardware Components
 
@@ -85,7 +87,7 @@ Final product without enclosure. I changed to a better speaker.
 * 10Ω resistor
 * 10kΩ potentiometer
 
----
+
 
 ## Software & Technologies
 
@@ -97,7 +99,7 @@ Final product without enclosure. I changed to a better speaker.
 * `aplay` audio routing
 * Git & GitHub
 
----
+
 
 ## System Architecture
 
@@ -110,7 +112,7 @@ The Python monitoring program continuously:
 5. Activates warning mode when thresholds are exceeded
 
 
----
+
 
 ## Hardware Setup
 
@@ -147,7 +149,7 @@ sudo pip3 install .
 sudo apt-get install espeak alsa-utils
 ```
 
----
+
 
 ## Running the Project
 
@@ -158,7 +160,7 @@ python3 air_quality.py
 ```
 
 
----
+
 
 ## Testing
 
@@ -180,7 +182,7 @@ To test the system, alcohol wipes were used to produce strong fumes near the sen
 * Spoken alarms played through the speaker
 * System returned to normal mode after readings decreased
 
----
+
 
 ## Challenges & Fixes
 
