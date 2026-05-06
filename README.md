@@ -59,7 +59,7 @@ I used the GrovePi+ as an intermediary board, plugging the air quality and gas s
 <img width="460" height="366" alt="Screenshot 2026-05-05 at 23 33 10" src="https://github.com/user-attachments/assets/528eb5d5-d7b3-4440-8b77-d0b3d1fe420f" />
 <img width="562" height="493" alt="Screenshot 2026-05-05 at 23 35 37" src="https://github.com/user-attachments/assets/8274f594-93d3-484d-8d14-700b2ffb2c9c" />
 
-The Pi's 3.5mm jack outputs too weak a signal to drive a passive speaker, so I built an LM386 amplifier circuit on a breadboard between them. The amp is powered from the Pi's 5V GPIO pin and boosts the audio signal enough to make the speaker audible.
+The Pi's 3.5mm jack outputs too weak a signal to drive a passive speaker, so I built an LM386 amplifier circuit on a breadboard between them. The amp is powered from the Pi's 5V GPIO pin and boosts the audio signal enough to make the speaker audible. Instructions to make an amplifier is in the class slides.
 
 
 
@@ -70,6 +70,16 @@ For the first iteration, I paired a simple passive speaker with a breadboard LM3
 
 <img width="553" height="710" alt="Screenshot 2026-05-05 at 23 40 58" src="https://github.com/user-attachments/assets/3be9b077-2eca-40a8-a5a8-5bbcd4be4031" />
 Final product without enclosure. I changed to a better speaker.
+
+
+* Enclosures
+
+<img width="910" height="602" alt="Screenshot 2026-05-06 at 00 02 55" src="https://github.com/user-attachments/assets/9272c4c1-e382-4e2a-8f12-7c3317c5c8fe" />
+<img width="830" height="624" alt="Screenshot 2026-05-06 at 00 03 10" src="https://github.com/user-attachments/assets/f50f6fec-0f05-4316-8625-8561aac7489f" />
+<img width="450" height="628" alt="Screenshot 2026-05-06 at 00 03 21" src="https://github.com/user-attachments/assets/21c5ba09-3bc5-41ec-9796-450282aa8034" />
+
+
+
 
 
 
@@ -199,6 +209,7 @@ An LM386 amplifier circuit was designed and built on a breadboard to amplify the
 - [GrovePi Plus Documentation](https://wiki.seeedstudio.com/GrovePi_Plus/)
 - [Grove Gas Sensor MQ3 Documentation](https://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ3/#play-with-raspberry-pi-with-grove-base-hat-for-raspberry-pi)
 - [Grove Air Quality Sensor v1.3 Documentation](https://wiki.seeedstudio.com/Grove-Air_Quality_Sensor_v1.3/)
+- [Monitor air quality with a Raspberry Pi](https://www.raspberrypi.com/news/monitor-air-quality-with-a-raspberry-pi/)
 
 
 
