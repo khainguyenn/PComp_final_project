@@ -45,11 +45,19 @@ The project combines:
 * Grove Air Quality Sensor v1.3
 * Grove Gas Sensor MQ3
 
+<img width="556" height="738" alt="Screenshot 2026-05-05 at 23 32 09" src="https://github.com/user-attachments/assets/2741730a-8384-4d3d-98ff-3776bd8738dd" />
+
+I used the GrovePi+ as an intermediary board, plugging the air quality and gas sensors into its analog ports A0 and A1. Without it, the Pi has no way to read analog sensors directly.
+
 ### Audio System
 
 * Passive speaker
 * 3.5mm audio cable
 * LM386 amplifier circuit
+
+<img width="460" height="366" alt="Screenshot 2026-05-05 at 23 33 10" src="https://github.com/user-attachments/assets/528eb5d5-d7b3-4440-8b77-d0b3d1fe420f" />
+The Pi's 3.5mm jack outputs too weak a signal to drive a passive speaker, so I built an LM386 amplifier circuit on a breadboard between them. The amp is powered from the Pi's 5V GPIO pin and boosts the audio signal enough to make the speaker audible.
+
 
 ### Amplifier Components
 
