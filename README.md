@@ -46,7 +46,7 @@ The project combines:
 * Grove Air Quality Sensor v1.3
 * Grove Gas Sensor MQ3
 
-<img width="556" height="738" alt="Screenshot 2026-05-05 at 23 32 09" src="https://github.com/user-attachments/assets/2741730a-8384-4d3d-98ff-3776bd8738dd" />
+<img width="460" height="638" alt="Screenshot 2026-05-05 at 23 32 09" src="https://github.com/user-attachments/assets/2741730a-8384-4d3d-98ff-3776bd8738dd" />
 
 I used the GrovePi+ as an intermediary board, plugging the air quality and gas sensors into its analog ports A0 and A1. Without it, the Pi has no way to read analog sensors directly.
 
@@ -57,7 +57,7 @@ I used the GrovePi+ as an intermediary board, plugging the air quality and gas s
 * LM386 amplifier circuit
 
 <img width="460" height="366" alt="Screenshot 2026-05-05 at 23 33 10" src="https://github.com/user-attachments/assets/528eb5d5-d7b3-4440-8b77-d0b3d1fe420f" />
-<img width="562" height="493" alt="Screenshot 2026-05-05 at 23 35 37" src="https://github.com/user-attachments/assets/8274f594-93d3-484d-8d14-700b2ffb2c9c" />
+<img width="460" height="493" alt="Screenshot 2026-05-05 at 23 35 37" src="https://github.com/user-attachments/assets/8274f594-93d3-484d-8d14-700b2ffb2c9c" />
 
 The Pi's 3.5mm jack outputs too weak a signal to drive a passive speaker, so I built an LM386 amplifier circuit on a breadboard between them. The amp is powered from the Pi's 5V GPIO pin and boosts the audio signal enough to make the speaker audible. Instructions to make an amplifier is in the class slides.
 
@@ -74,9 +74,12 @@ Final product without enclosure. I changed to a better speaker.
 
 * Enclosures
 
-<img width="910" height="602" alt="Screenshot 2026-05-06 at 00 02 55" src="https://github.com/user-attachments/assets/9272c4c1-e382-4e2a-8f12-7c3317c5c8fe" />
-<img width="830" height="624" alt="Screenshot 2026-05-06 at 00 03 10" src="https://github.com/user-attachments/assets/f50f6fec-0f05-4316-8625-8561aac7489f" />
-<img width="450" height="628" alt="Screenshot 2026-05-06 at 00 03 21" src="https://github.com/user-attachments/assets/21c5ba09-3bc5-41ec-9796-450282aa8034" />
+<img width="400" height="600" alt="Screenshot 2026-05-06 at 00 02 55" src="https://github.com/user-attachments/assets/9272c4c1-e382-4e2a-8f12-7c3317c5c8fe" />
+<img width="400" height="500" alt="Screenshot 2026-05-06 at 00 03 10" src="https://github.com/user-attachments/assets/f50f6fec-0f05-4316-8625-8561aac7489f" />
+<img width="400" height="400" alt="Screenshot 2026-05-06 at 00 03 21" src="https://github.com/user-attachments/assets/21c5ba09-3bc5-41ec-9796-450282aa8034" />
+
+* Final enclosure
+<img width="600" height="600" alt="Screenshot 2026-05-06 at 00 22 56" src="https://github.com/user-attachments/assets/9584444c-55bd-4e95-8a9c-e40b1c4e6665" />
 
 
 
