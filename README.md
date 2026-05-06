@@ -5,6 +5,10 @@ A low-cost home safety monitoring system built with a Raspberry Pi that detects 
 
 **[Video of success test run](https://youtube.com/shorts/I3OOGryHgvY)**
 
+
+**[Video of complete product run](https://www.youtube.com/shorts/0JXh127iozA)**
+
+
 ## Creator statement
 
 The Smart Air Safety Monitor was created to explore how inexpensive hardware can be used to build a practical air monitoring system. Many commercial home safety devices work like “black boxes,” where people only see the final result and do not understand how the sensors or alerts actually work. One goal of this project was to better understand and show the process behind these systems by building one from simple and accessible parts.
