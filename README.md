@@ -4,6 +4,13 @@ A low-cost home safety monitoring system built with a Raspberry Pi that detects 
 
 ---
 
+## Creator statement
+
+The Smart Air Safety Monitor was created to explore how inexpensive hardware can be used to build a practical air monitoring system. Many commercial home safety devices work like “black boxes,” where people only see the final result and do not understand how the sensors or alerts actually work. One goal of this project was to better understand and show the process behind these systems by building one from simple and accessible parts.
+
+What interested me most was not just whether the device could work, but how useful and reliable a low-cost system could realistically be. The project showed that it is possible to build a meaningful air monitoring device without expensive professional equipment. Using a Raspberry Pi, Grove sensors, and open-source Python libraries, the system could continuously monitor air conditions and automatically respond when readings became unsafe
+
+---
 ## Overview
 
 The Smart Air Safety Monitor is designed as an affordable environmental monitoring device for home use. Using a Raspberry Pi 3 with Grove sensors, the system detects changes in air quality and gas concentration and responds with automatic voice warnings and alarms.
