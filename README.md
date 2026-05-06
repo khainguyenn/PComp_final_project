@@ -3,8 +3,7 @@
 A low-cost home safety monitoring system built with a Raspberry Pi that detects unsafe air conditions such as smoke, gas, and poor air quality. The system continuously monitors sensor readings and provides real-time spoken alerts through a speaker system.
 
 
-
-[Video of success test run](https://youtube.com/shorts/I3OOGryHgvY)
+**[Video of success test run](https://youtube.com/shorts/I3OOGryHgvY)**
 
 ## Creator statement
 
